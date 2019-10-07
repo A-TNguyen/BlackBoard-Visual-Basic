@@ -1,3 +1,9 @@
 body {
   background-color: beige;
 }
+#loginPage {
+  text-align: center;
+}
+#header {
+  text-align: center;
+}
