@@ -73,11 +73,29 @@
     <Import Include="System.Threading.Tasks" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Admin_Student_Option.Designer.vb">
+      <DependentUpon>Admin_Student_Option.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Admin_Student_Option.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="FormStudentManagement.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FormStudentManagement.Designer.vb">
       <DependentUpon>FormStudentManagement.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.vb">
+      <DependentUpon>Login.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Login.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login_S.Designer.vb">
+      <DependentUpon>Login_S.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Login_S.vb">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="My Project\AssemblyInfo.vb" />
@@ -100,16 +118,34 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>StudentDatabaseDataSet.xsd</DependentUpon>
     </Compile>
+    <Compile Include="Student_View.Designer.vb">
+      <DependentUpon>Student_View.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Student_View.vb">
+      <SubType>Form</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
+    <EmbeddedResource Include="Admin_Student_Option.resx">
+      <DependentUpon>Admin_Student_Option.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormStudentManagement.resx">
       <DependentUpon>FormStudentManagement.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login_S.resx">
+      <DependentUpon>Login_S.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="My Project\Resources.resx">
       <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.vb</LastGenOutput>
       <CustomToolNamespace>My.Resources</CustomToolNamespace>
       <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Student_View.resx">
+      <DependentUpon>Student_View.vb</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>

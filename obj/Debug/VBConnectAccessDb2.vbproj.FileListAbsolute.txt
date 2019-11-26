@@ -1,0 +1,16 @@
+C:\Users\earne\OneDrive\Desktop\VBConnectAccessDb2\bin\Debug\VBConnectAccessDb2.exe.config
+C:\Users\earne\OneDrive\Desktop\VBConnectAccessDb2\bin\Debug\VBConnectAccessDb2.exe
+C:\Users\earne\OneDrive\Desktop\VBConnectAccessDb2\bin\Debug\VBConnectAccessDb2.pdb
+C:\Users\earne\OneDrive\Desktop\VBConnectAccessDb2\bin\Debug\VBConnectAccessDb2.xml
+C:\Users\earne\OneDrive\Desktop\VBConnectAccessDb2\obj\Debug\VBConnectAccessDb2.vbprojAssemblyReference.cache
+C:\Users\earne\OneDrive\Desktop\VBConnectAccessDb2\obj\Debug\VBConnectAccessDb2.FormStudentManagement.resources
+C:\Users\earne\OneDrive\Desktop\VBConnectAccessDb2\obj\Debug\VBConnectAccessDb2.Resources.resources
+C:\Users\earne\OneDrive\Desktop\VBConnectAccessDb2\obj\Debug\VBConnectAccessDb2.vbproj.GenerateResource.cache
+C:\Users\earne\OneDrive\Desktop\VBConnectAccessDb2\obj\Debug\VBConnectAccessDb2.vbproj.CoreCompileInputs.cache
+C:\Users\earne\OneDrive\Desktop\VBConnectAccessDb2\obj\Debug\VBConnectAccessDb2.exe
+C:\Users\earne\OneDrive\Desktop\VBConnectAccessDb2\obj\Debug\VBConnectAccessDb2.xml
+C:\Users\earne\OneDrive\Desktop\VBConnectAccessDb2\obj\Debug\VBConnectAccessDb2.pdb
+C:\Users\earne\OneDrive\Desktop\VBConnectAccessDb2\obj\Debug\VBConnectAccessDb2.Login.resources
+C:\Users\earne\OneDrive\Desktop\VBConnectAccessDb2\obj\Debug\VBConnectAccessDb2.Admin_Student_Option.resources
+C:\Users\earne\OneDrive\Desktop\VBConnectAccessDb2\obj\Debug\VBConnectAccessDb2.Login_S.resources
+C:\Users\earne\OneDrive\Desktop\VBConnectAccessDb2\obj\Debug\VBConnectAccessDb2.Student_View.resources

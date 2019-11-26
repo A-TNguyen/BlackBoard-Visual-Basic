@@ -118,150 +118,168 @@ Partial Class FormStudentManagement
         CType(Me.Student_DataBindingNavigator, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.Student_DataBindingNavigator.SuspendLayout()
         CType(Me.Student_DataDataGridView, System.ComponentModel.ISupportInitialize).BeginInit()
+        Me.GroupBox2.SuspendLayout()
         Me.GroupBox3.SuspendLayout()
         Me.SuspendLayout()
         '
         'Enroll_CountLabel
         '
         Enroll_CountLabel.AutoSize = True
+        Enroll_CountLabel.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Enroll_CountLabel.Location = New System.Drawing.Point(24, 57)
         Enroll_CountLabel.Name = "Enroll_CountLabel"
-        Enroll_CountLabel.Size = New System.Drawing.Size(67, 13)
+        Enroll_CountLabel.Size = New System.Drawing.Size(80, 13)
         Enroll_CountLabel.TabIndex = 1
         Enroll_CountLabel.Text = "Enroll Count:"
+        AddHandler Enroll_CountLabel.Click, AddressOf Me.Enroll_CountLabel_Click_1
         '
         'StudentIDLabel
         '
         StudentIDLabel.AutoSize = True
+        StudentIDLabel.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         StudentIDLabel.Location = New System.Drawing.Point(24, 83)
         StudentIDLabel.Name = "StudentIDLabel"
-        StudentIDLabel.Size = New System.Drawing.Size(61, 13)
+        StudentIDLabel.Size = New System.Drawing.Size(72, 13)
         StudentIDLabel.TabIndex = 3
         StudentIDLabel.Text = "Student ID:"
         '
         'FirstNameLabel
         '
         FirstNameLabel.AutoSize = True
+        FirstNameLabel.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         FirstNameLabel.Location = New System.Drawing.Point(24, 109)
         FirstNameLabel.Name = "FirstNameLabel"
-        FirstNameLabel.Size = New System.Drawing.Size(60, 13)
+        FirstNameLabel.Size = New System.Drawing.Size(71, 13)
         FirstNameLabel.TabIndex = 5
         FirstNameLabel.Text = "First Name:"
         '
         'LastNameLabel
         '
         LastNameLabel.AutoSize = True
+        LastNameLabel.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         LastNameLabel.Location = New System.Drawing.Point(24, 135)
         LastNameLabel.Name = "LastNameLabel"
-        LastNameLabel.Size = New System.Drawing.Size(61, 13)
+        LastNameLabel.Size = New System.Drawing.Size(71, 13)
         LastNameLabel.TabIndex = 7
         LastNameLabel.Text = "Last Name:"
         '
         'Class1Label
         '
         Class1Label.AutoSize = True
+        Class1Label.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Class1Label.Location = New System.Drawing.Point(24, 161)
         Class1Label.Name = "Class1Label"
-        Class1Label.Size = New System.Drawing.Size(41, 13)
+        Class1Label.Size = New System.Drawing.Size(48, 13)
         Class1Label.TabIndex = 9
         Class1Label.Text = "Class1:"
         '
         'Class2Label
         '
         Class2Label.AutoSize = True
+        Class2Label.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Class2Label.Location = New System.Drawing.Point(24, 187)
         Class2Label.Name = "Class2Label"
-        Class2Label.Size = New System.Drawing.Size(41, 13)
+        Class2Label.Size = New System.Drawing.Size(48, 13)
         Class2Label.TabIndex = 11
         Class2Label.Text = "Class2:"
         '
         'Class3Label
         '
         Class3Label.AutoSize = True
+        Class3Label.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Class3Label.Location = New System.Drawing.Point(24, 213)
         Class3Label.Name = "Class3Label"
-        Class3Label.Size = New System.Drawing.Size(41, 13)
+        Class3Label.Size = New System.Drawing.Size(48, 13)
         Class3Label.TabIndex = 13
         Class3Label.Text = "Class3:"
         '
         'Class4Label
         '
         Class4Label.AutoSize = True
+        Class4Label.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Class4Label.Location = New System.Drawing.Point(24, 241)
         Class4Label.Name = "Class4Label"
-        Class4Label.Size = New System.Drawing.Size(41, 13)
+        Class4Label.Size = New System.Drawing.Size(48, 13)
         Class4Label.TabIndex = 15
         Class4Label.Text = "Class4:"
         '
         'Class1_MidtermLabel
         '
         Class1_MidtermLabel.AutoSize = True
+        Class1_MidtermLabel.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Class1_MidtermLabel.Location = New System.Drawing.Point(267, 60)
         Class1_MidtermLabel.Name = "Class1_MidtermLabel"
-        Class1_MidtermLabel.Size = New System.Drawing.Size(81, 13)
+        Class1_MidtermLabel.Size = New System.Drawing.Size(96, 13)
         Class1_MidtermLabel.TabIndex = 17
         Class1_MidtermLabel.Text = "Class1 Midterm:"
         '
         'Class2_MidtermLabel
         '
         Class2_MidtermLabel.AutoSize = True
+        Class2_MidtermLabel.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Class2_MidtermLabel.Location = New System.Drawing.Point(267, 86)
         Class2_MidtermLabel.Name = "Class2_MidtermLabel"
-        Class2_MidtermLabel.Size = New System.Drawing.Size(81, 13)
+        Class2_MidtermLabel.Size = New System.Drawing.Size(96, 13)
         Class2_MidtermLabel.TabIndex = 19
         Class2_MidtermLabel.Text = "Class2 Midterm:"
         '
         'Class3_MidtermLabel
         '
         Class3_MidtermLabel.AutoSize = True
+        Class3_MidtermLabel.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Class3_MidtermLabel.Location = New System.Drawing.Point(267, 112)
         Class3_MidtermLabel.Name = "Class3_MidtermLabel"
-        Class3_MidtermLabel.Size = New System.Drawing.Size(81, 13)
+        Class3_MidtermLabel.Size = New System.Drawing.Size(96, 13)
         Class3_MidtermLabel.TabIndex = 21
         Class3_MidtermLabel.Text = "Class3 Midterm:"
         '
         'Class4_MidtermLabel
         '
         Class4_MidtermLabel.AutoSize = True
+        Class4_MidtermLabel.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Class4_MidtermLabel.Location = New System.Drawing.Point(267, 138)
         Class4_MidtermLabel.Name = "Class4_MidtermLabel"
-        Class4_MidtermLabel.Size = New System.Drawing.Size(81, 13)
+        Class4_MidtermLabel.Size = New System.Drawing.Size(96, 13)
         Class4_MidtermLabel.TabIndex = 23
         Class4_MidtermLabel.Text = "Class4 Midterm:"
         '
         'Class1_FinalLabel
         '
         Class1_FinalLabel.AutoSize = True
+        Class1_FinalLabel.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Class1_FinalLabel.Location = New System.Drawing.Point(267, 164)
         Class1_FinalLabel.Name = "Class1_FinalLabel"
-        Class1_FinalLabel.Size = New System.Drawing.Size(66, 13)
+        Class1_FinalLabel.Size = New System.Drawing.Size(79, 13)
         Class1_FinalLabel.TabIndex = 25
         Class1_FinalLabel.Text = "Class1 Final:"
         '
         'Class2_FinalLabel
         '
         Class2_FinalLabel.AutoSize = True
+        Class2_FinalLabel.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Class2_FinalLabel.Location = New System.Drawing.Point(267, 190)
         Class2_FinalLabel.Name = "Class2_FinalLabel"
-        Class2_FinalLabel.Size = New System.Drawing.Size(66, 13)
+        Class2_FinalLabel.Size = New System.Drawing.Size(79, 13)
         Class2_FinalLabel.TabIndex = 27
         Class2_FinalLabel.Text = "Class2 Final:"
         '
         'Class3_FinalLabel
         '
         Class3_FinalLabel.AutoSize = True
+        Class3_FinalLabel.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Class3_FinalLabel.Location = New System.Drawing.Point(267, 216)
         Class3_FinalLabel.Name = "Class3_FinalLabel"
-        Class3_FinalLabel.Size = New System.Drawing.Size(66, 13)
+        Class3_FinalLabel.Size = New System.Drawing.Size(79, 13)
         Class3_FinalLabel.TabIndex = 29
         Class3_FinalLabel.Text = "Class3 Final:"
         '
         'Class4_FinalLabel
         '
         Class4_FinalLabel.AutoSize = True
+        Class4_FinalLabel.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Class4_FinalLabel.Location = New System.Drawing.Point(267, 242)
         Class4_FinalLabel.Name = "Class4_FinalLabel"
-        Class4_FinalLabel.Size = New System.Drawing.Size(66, 13)
+        Class4_FinalLabel.Size = New System.Drawing.Size(79, 13)
         Class4_FinalLabel.TabIndex = 31
         Class4_FinalLabel.Text = "Class4 Final:"
         '
@@ -299,7 +317,7 @@ Partial Class FormStudentManagement
         Me.Student_DataBindingNavigator.MovePreviousItem = Me.BindingNavigatorMovePreviousItem
         Me.Student_DataBindingNavigator.Name = "Student_DataBindingNavigator"
         Me.Student_DataBindingNavigator.PositionItem = Me.BindingNavigatorPositionItem
-        Me.Student_DataBindingNavigator.Size = New System.Drawing.Size(929, 25)
+        Me.Student_DataBindingNavigator.Size = New System.Drawing.Size(844, 25)
         Me.Student_DataBindingNavigator.TabIndex = 0
         Me.Student_DataBindingNavigator.Text = "BindingNavigator1"
         '
@@ -464,7 +482,7 @@ Partial Class FormStudentManagement
         'Class1_MidtermTextBox
         '
         Me.Class1_MidtermTextBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.Student_DataBindingSource, "Class1 Midterm", True))
-        Me.Class1_MidtermTextBox.Location = New System.Drawing.Point(354, 57)
+        Me.Class1_MidtermTextBox.Location = New System.Drawing.Point(110, 19)
         Me.Class1_MidtermTextBox.Name = "Class1_MidtermTextBox"
         Me.Class1_MidtermTextBox.Size = New System.Drawing.Size(100, 20)
         Me.Class1_MidtermTextBox.TabIndex = 18
@@ -472,7 +490,7 @@ Partial Class FormStudentManagement
         'Class2_MidtermTextBox
         '
         Me.Class2_MidtermTextBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.Student_DataBindingSource, "Class2 Midterm", True))
-        Me.Class2_MidtermTextBox.Location = New System.Drawing.Point(354, 83)
+        Me.Class2_MidtermTextBox.Location = New System.Drawing.Point(110, 45)
         Me.Class2_MidtermTextBox.Name = "Class2_MidtermTextBox"
         Me.Class2_MidtermTextBox.Size = New System.Drawing.Size(100, 20)
         Me.Class2_MidtermTextBox.TabIndex = 20
@@ -480,7 +498,7 @@ Partial Class FormStudentManagement
         'Class3_MidtermTextBox
         '
         Me.Class3_MidtermTextBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.Student_DataBindingSource, "Class3 Midterm", True))
-        Me.Class3_MidtermTextBox.Location = New System.Drawing.Point(354, 109)
+        Me.Class3_MidtermTextBox.Location = New System.Drawing.Point(110, 71)
         Me.Class3_MidtermTextBox.Name = "Class3_MidtermTextBox"
         Me.Class3_MidtermTextBox.Size = New System.Drawing.Size(100, 20)
         Me.Class3_MidtermTextBox.TabIndex = 22
@@ -488,7 +506,7 @@ Partial Class FormStudentManagement
         'Class4_MidtermTextBox
         '
         Me.Class4_MidtermTextBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.Student_DataBindingSource, "Class4 Midterm", True))
-        Me.Class4_MidtermTextBox.Location = New System.Drawing.Point(354, 135)
+        Me.Class4_MidtermTextBox.Location = New System.Drawing.Point(110, 97)
         Me.Class4_MidtermTextBox.Name = "Class4_MidtermTextBox"
         Me.Class4_MidtermTextBox.Size = New System.Drawing.Size(100, 20)
         Me.Class4_MidtermTextBox.TabIndex = 24
@@ -496,7 +514,7 @@ Partial Class FormStudentManagement
         'Class1_FinalTextBox
         '
         Me.Class1_FinalTextBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.Student_DataBindingSource, "Class1 Final", True))
-        Me.Class1_FinalTextBox.Location = New System.Drawing.Point(354, 161)
+        Me.Class1_FinalTextBox.Location = New System.Drawing.Point(110, 123)
         Me.Class1_FinalTextBox.Name = "Class1_FinalTextBox"
         Me.Class1_FinalTextBox.Size = New System.Drawing.Size(100, 20)
         Me.Class1_FinalTextBox.TabIndex = 26
@@ -504,7 +522,7 @@ Partial Class FormStudentManagement
         'Class2_FinalTextBox
         '
         Me.Class2_FinalTextBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.Student_DataBindingSource, "Class2 Final", True))
-        Me.Class2_FinalTextBox.Location = New System.Drawing.Point(354, 187)
+        Me.Class2_FinalTextBox.Location = New System.Drawing.Point(110, 149)
         Me.Class2_FinalTextBox.Name = "Class2_FinalTextBox"
         Me.Class2_FinalTextBox.Size = New System.Drawing.Size(100, 20)
         Me.Class2_FinalTextBox.TabIndex = 28
@@ -512,7 +530,7 @@ Partial Class FormStudentManagement
         'Class3_FinalTextBox
         '
         Me.Class3_FinalTextBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.Student_DataBindingSource, "Class3 Final", True))
-        Me.Class3_FinalTextBox.Location = New System.Drawing.Point(354, 213)
+        Me.Class3_FinalTextBox.Location = New System.Drawing.Point(110, 175)
         Me.Class3_FinalTextBox.Name = "Class3_FinalTextBox"
         Me.Class3_FinalTextBox.Size = New System.Drawing.Size(100, 20)
         Me.Class3_FinalTextBox.TabIndex = 30
@@ -520,7 +538,7 @@ Partial Class FormStudentManagement
         'Class4_FinalTextBox
         '
         Me.Class4_FinalTextBox.DataBindings.Add(New System.Windows.Forms.Binding("Text", Me.Student_DataBindingSource, "Class4 Final", True))
-        Me.Class4_FinalTextBox.Location = New System.Drawing.Point(354, 239)
+        Me.Class4_FinalTextBox.Location = New System.Drawing.Point(110, 204)
         Me.Class4_FinalTextBox.Name = "Class4_FinalTextBox"
         Me.Class4_FinalTextBox.Size = New System.Drawing.Size(100, 20)
         Me.Class4_FinalTextBox.TabIndex = 32
@@ -634,6 +652,7 @@ Partial Class FormStudentManagement
         '
         'GroupBox1
         '
+        Me.GroupBox1.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.GroupBox1.Location = New System.Drawing.Point(12, 38)
         Me.GroupBox1.Name = "GroupBox1"
         Me.GroupBox1.Size = New System.Drawing.Size(232, 237)
@@ -643,6 +662,15 @@ Partial Class FormStudentManagement
         '
         'GroupBox2
         '
+        Me.GroupBox2.Controls.Add(Me.Class1_MidtermTextBox)
+        Me.GroupBox2.Controls.Add(Me.Class2_MidtermTextBox)
+        Me.GroupBox2.Controls.Add(Me.Class3_MidtermTextBox)
+        Me.GroupBox2.Controls.Add(Me.Class4_MidtermTextBox)
+        Me.GroupBox2.Controls.Add(Me.Class1_FinalTextBox)
+        Me.GroupBox2.Controls.Add(Me.Class2_FinalTextBox)
+        Me.GroupBox2.Controls.Add(Me.Class3_FinalTextBox)
+        Me.GroupBox2.Controls.Add(Me.Class4_FinalTextBox)
+        Me.GroupBox2.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.GroupBox2.Location = New System.Drawing.Point(259, 38)
         Me.GroupBox2.Name = "GroupBox2"
         Me.GroupBox2.Size = New System.Drawing.Size(232, 237)
@@ -656,12 +684,13 @@ Partial Class FormStudentManagement
         Me.GroupBox3.Controls.Add(Me.DeleteButton)
         Me.GroupBox3.Controls.Add(Me.SaveButton)
         Me.GroupBox3.Controls.Add(Me.AddNewButton)
+        Me.GroupBox3.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.GroupBox3.Location = New System.Drawing.Point(507, 38)
         Me.GroupBox3.Name = "GroupBox3"
         Me.GroupBox3.Size = New System.Drawing.Size(232, 237)
         Me.GroupBox3.TabIndex = 36
         Me.GroupBox3.TabStop = False
-        Me.GroupBox3.Text = "Functions"
+        Me.GroupBox3.Text = "Options"
         '
         'ExitButton
         '
@@ -669,7 +698,7 @@ Partial Class FormStudentManagement
         Me.ExitButton.Name = "ExitButton"
         Me.ExitButton.Size = New System.Drawing.Size(194, 38)
         Me.ExitButton.TabIndex = 3
-        Me.ExitButton.Text = "Exit"
+        Me.ExitButton.Text = "Log out"
         Me.ExitButton.UseVisualStyleBackColor = True
         '
         'DeleteButton
@@ -703,7 +732,8 @@ Partial Class FormStudentManagement
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(929, 605)
+        Me.BackColor = System.Drawing.SystemColors.Desktop
+        Me.ClientSize = New System.Drawing.Size(844, 605)
         Me.Controls.Add(Me.GroupBox3)
         Me.Controls.Add(Me.Student_DataDataGridView)
         Me.Controls.Add(Enroll_CountLabel)
@@ -723,33 +753,27 @@ Partial Class FormStudentManagement
         Me.Controls.Add(Class4Label)
         Me.Controls.Add(Me.Class4TextBox)
         Me.Controls.Add(Class1_MidtermLabel)
-        Me.Controls.Add(Me.Class1_MidtermTextBox)
         Me.Controls.Add(Class2_MidtermLabel)
-        Me.Controls.Add(Me.Class2_MidtermTextBox)
         Me.Controls.Add(Class3_MidtermLabel)
-        Me.Controls.Add(Me.Class3_MidtermTextBox)
         Me.Controls.Add(Class4_MidtermLabel)
-        Me.Controls.Add(Me.Class4_MidtermTextBox)
         Me.Controls.Add(Class1_FinalLabel)
-        Me.Controls.Add(Me.Class1_FinalTextBox)
         Me.Controls.Add(Class2_FinalLabel)
-        Me.Controls.Add(Me.Class2_FinalTextBox)
         Me.Controls.Add(Class3_FinalLabel)
-        Me.Controls.Add(Me.Class3_FinalTextBox)
         Me.Controls.Add(Class4_FinalLabel)
-        Me.Controls.Add(Me.Class4_FinalTextBox)
         Me.Controls.Add(Me.Student_DataBindingNavigator)
         Me.Controls.Add(Me.GroupBox1)
         Me.Controls.Add(Me.GroupBox2)
         Me.Name = "FormStudentManagement"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = "Student Information"
+        Me.Text = "Student Management"
         CType(Me.StudentDatabaseDataSet, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.Student_DataBindingSource, System.ComponentModel.ISupportInitialize).EndInit()
         CType(Me.Student_DataBindingNavigator, System.ComponentModel.ISupportInitialize).EndInit()
         Me.Student_DataBindingNavigator.ResumeLayout(False)
         Me.Student_DataBindingNavigator.PerformLayout()
         CType(Me.Student_DataDataGridView, System.ComponentModel.ISupportInitialize).EndInit()
+        Me.GroupBox2.ResumeLayout(False)
+        Me.GroupBox2.PerformLayout()
         Me.GroupBox3.ResumeLayout(False)
         Me.ResumeLayout(False)
         Me.PerformLayout()
