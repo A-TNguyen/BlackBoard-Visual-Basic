@@ -1,4 +1,4 @@
-# Student Management Tool
+# discontinued Student Management Tool
 Blackboard Application clone in Visual Basic    
 Contributers -    
 
